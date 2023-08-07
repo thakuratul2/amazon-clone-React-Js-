@@ -1,0 +1,24 @@
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box{
+    height: 400px;
+    
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box-content{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.box-img1{
+    background-image: url('../assets/box1_image.jpg');
+    height: 300px;
+    background-image: contain;
+    margin-top: 1rem;
+}
