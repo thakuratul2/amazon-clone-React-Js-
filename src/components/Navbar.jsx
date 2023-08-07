@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faLocationDot,faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   return (
@@ -21,7 +21,14 @@ const Navbar = () => {
                 </div>
             </div>
        <div className="nav-search">
-        
+        <select className='search'>
+            <option>All</option>
+        </select>
+        <input placeholder='Search Amazon' className='search-input' />
+        <div className="search-icon">
+        <FontAwesomeIcon icon={faMagnifyingGlass} />
+            
+                </div>
        </div>
 
         </div>
