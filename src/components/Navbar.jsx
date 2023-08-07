@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLocationDot,faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { faLocationDot,faMagnifyingGlass,faCartShopping,faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   return (
@@ -31,7 +31,39 @@ const Navbar = () => {
                 </div>
        </div>
 
+       <div className="nav-sign border">
+        <p><span>Hello, sign in</span></p>
+        <p className="nav-second">Account & Lists</p>
+       </div>
+       <div className="nav-return border">
+        <p><span>Returns</span></p>
+        <p className="nav-second">& Orders</p>
+       </div>
+
+       <div className="nav-cart border">
+       <FontAwesomeIcon icon={faCartShopping} className='cart-icon' />
+        Cart
+       </div>
+</div>
+       <div className="panel">
+        <div className="panel-all">
+        <FontAwesomeIcon icon={faBars} />
+            All
         </div>
+        <div className="panel-ops">
+            <p>
+                Today's Deals
+            </p>
+            <p>Customer Service</p>
+            <p>Registry</p>
+            <p>Gift Cards</p>
+            <p>Sell</p>
+        </div>
+        <div className="paneld-deals">
+            Shop deals in Electronics
+        </div>
+       </div>
+        
     </>
   );
 }
