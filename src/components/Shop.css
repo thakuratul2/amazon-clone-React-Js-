@@ -26,3 +26,45 @@
 .box-content p{
     color: #007185;
 }
+.box-img2{
+    background-image: url('../assets/box2_image.jpg');
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+}
+.box-img3{
+    background-image: url('../assets/box3_image.jpg');
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+}
+.box-img4{
+    background-image: url('../assets/box4_image.jpg');
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+}
+.box-img5{
+    background-image: url('../assets/box5_image.jpg');
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+}
+.box-img6{
+    background-image: url('../assets/box6_image.jpg');
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+}
+.box-img7{
+    background-image: url('../assets/box7_image.jpg');
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+}
+.box-img8{
+    background-image: url('../assets/box8_image.jpg');
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+}
