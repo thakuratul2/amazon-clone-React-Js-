@@ -29,7 +29,7 @@ const Shop = () => {
             <div className="box3 box">
             <div className="box-content">
             <h2>
-                Health & Personal Care
+                Fashion
             </h2>
             <div className="box-img3">
 
@@ -39,7 +39,7 @@ const Shop = () => {
             <div className="box4 box">
             <div className="box-content">
             <h2>
-                Health & Personal Care
+            Home Appliances
             </h2>
             <div className="box-img4">
 
@@ -49,7 +49,7 @@ const Shop = () => {
             <div className="box1 box">
             <div className="box-content">
             <h2>
-                Health & Personal Care
+                Kitchen
             </h2>
             <div className="box-img5">
 
@@ -70,7 +70,7 @@ const Shop = () => {
             <div className="box3 box">
             <div className="box-content">
             <h2>
-                Health & Personal Care
+                Beauty
             </h2>
             <div className="box-img7">
 
@@ -80,7 +80,7 @@ const Shop = () => {
             <div className="box4 box">
             <div className="box-content">
             <h2>
-                Health & Personal Care
+               
             </h2>
             <div className="box-img8">
 
