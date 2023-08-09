@@ -50,6 +50,7 @@ const Footer = () => {
         <div className="logo">
 
         </div>
+        </div>
         <div className="foot-panel4">
             <div className="pages">
                 <a href="#">Conditions of Use</a>
@@ -59,7 +60,7 @@ const Footer = () => {
             <div className="copyright">
             © 1996-2023, Amazon.com, Inc. or its affiliates
             </div>
-        </div>
+        
     </div>
     </footer>
     
